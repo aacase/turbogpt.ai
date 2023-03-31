@@ -18,7 +18,7 @@ export function Logo() {
           height={25}
           style={{ marginBottom: '5px', imageRendering: 'crisp-edges' }}
         />{' '}
-        TurboGPT
+        LazyGPT
       </Title>
       {!isTabletOrMobile && (
         <Description>
