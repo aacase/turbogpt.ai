@@ -11,6 +11,7 @@ import { MoodSlider } from './MoodSlider';
 import SelectCharacter from './SelectCharacter';
 import { StyleConstants } from 'styles/StyleConstants';
 import CustomPrompts from './CustomPrompts';
+import GithubComponent from './Github';
 
 export function LeftSidebar() {
   const [selectedTab, setSelectedTab] = React.useState<number>(0);
@@ -49,6 +50,8 @@ export function LeftSidebar() {
             <MoodSlider />
             <Divider my="md" variant="dashed" />
             <PickModel />
+            <Divider my="md" variant="dashed" />
+            <GithubComponent />
           </>
         )}
         {selectedTab === 1 && (
@@ -62,7 +65,7 @@ export function LeftSidebar() {
             size={16}
             style={{ margin: '0 5px', color: 'red' }}
           />{' '}
-          in Montreal
+          to keep Aaron sane
         </Love>
       </Inner>
     </Wrapper>

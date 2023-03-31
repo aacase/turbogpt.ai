@@ -62,11 +62,12 @@ export function Overlay({ isOpened = false }: { isOpened: boolean }) {
         <Footer>
           <div className="items">
             <Item
-              href="https://ko-fi.com/mikepechousek"
+              href="https://twitter.com/turbogpt"
               target="_blank"
-              title="Buy me a coffee"
+              title="Twitter Page"
+              rel="noopener noreferrer"
             >
-              Buy me a coffee
+              SDP Repo
             </Item>
             <Item
               href="https://twitter.com/turbogpt"
@@ -74,15 +75,15 @@ export function Overlay({ isOpened = false }: { isOpened: boolean }) {
               title="Twitter Page"
               rel="noopener noreferrer"
             >
-              <TwitterIcon width={18} style={{ marginRight: 5 }} />
-              Twitter
+              ZTP Repo
             </Item>
             <Item
-              href="https://hccar8zm06k.typeform.com/to/An6RHMdE"
+              href="https://twitter.com/turbogpt"
               target="_blank"
+              title="Twitter Page"
+              rel="noopener noreferrer"
             >
-              <IconBulb width={18} style={{ marginRight: 5 }} />
-              Idea
+              ZTP e2e Repo
             </Item>
           </div>
           <Love>
@@ -91,7 +92,7 @@ export function Overlay({ isOpened = false }: { isOpened: boolean }) {
               size={12}
               style={{ margin: '0 5px', color: 'red' }}
             />{' '}
-            in Montreal
+            to keep Aaron sane
           </Love>
         </Footer>
       </Inner>
